@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.31727.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsPractice", "GenericsPractice\GenericsPractice.csproj", "{F0F27992-2118-4F7C-86FE-DA9987BE8423}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsPractice2", "GenericsPractice2\GenericsPractice2.csproj", "{FCA50C0D-5151-4404-9544-CBC01620BE98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsPractice2", "GenericsPractice2\GenericsPractice2.csproj", "{FCA50C0D-5151-4404-9544-CBC01620BE98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Studia", "Studia\Studia.csproj", "{406CE266-CB83-4382-851B-12AD6233CF89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{5F8127F4-48F3-4821-93DF-F1129F7B3E90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{FCA50C0D-5151-4404-9544-CBC01620BE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCA50C0D-5151-4404-9544-CBC01620BE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCA50C0D-5151-4404-9544-CBC01620BE98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406CE266-CB83-4382-851B-12AD6233CF89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406CE266-CB83-4382-851B-12AD6233CF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406CE266-CB83-4382-851B-12AD6233CF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406CE266-CB83-4382-851B-12AD6233CF89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F8127F4-48F3-4821-93DF-F1129F7B3E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8127F4-48F3-4821-93DF-F1129F7B3E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8127F4-48F3-4821-93DF-F1129F7B3E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8127F4-48F3-4821-93DF-F1129F7B3E90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
