@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsPractice", "Generic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsPractice2", "GenericsPractice2\GenericsPractice2.csproj", "{FCA50C0D-5151-4404-9544-CBC01620BE98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Studia", "Studia\Studia.csproj", "{406CE266-CB83-4382-851B-12AD6233CF89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YieldReturn", "Studia\YieldReturn.csproj", "{406CE266-CB83-4382-851B-12AD6233CF89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{5F8127F4-48F3-4821-93DF-F1129F7B3E90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{5F8127F4-48F3-4821-93DF-F1129F7B3E90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
