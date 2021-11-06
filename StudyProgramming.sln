@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YieldReturn", "Studia\Yield
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{5F8127F4-48F3-4821-93DF-F1129F7B3E90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerator", "Enumerator\Enumerator.csproj", "{7E8891EB-A568-42D7-B56F-1DC2C95CF354}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enumerator", "Enumerator\Enumerator.csproj", "{7E8891EB-A568-42D7-B56F-1DC2C95CF354}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{55B8DE90-2004-4C89-B612-36220CEBCE8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitTask", "AsyncAwaitTask\AsyncAwaitTask.csproj", "{A593D3FB-7672-42C6-87A6-5737FE08E85E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{7E8891EB-A568-42D7-B56F-1DC2C95CF354}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E8891EB-A568-42D7-B56F-1DC2C95CF354}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E8891EB-A568-42D7-B56F-1DC2C95CF354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55B8DE90-2004-4C89-B612-36220CEBCE8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B8DE90-2004-4C89-B612-36220CEBCE8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B8DE90-2004-4C89-B612-36220CEBCE8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B8DE90-2004-4C89-B612-36220CEBCE8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A593D3FB-7672-42C6-87A6-5737FE08E85E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A593D3FB-7672-42C6-87A6-5737FE08E85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A593D3FB-7672-42C6-87A6-5737FE08E85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A593D3FB-7672-42C6-87A6-5737FE08E85E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
