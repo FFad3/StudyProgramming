@@ -8,11 +8,29 @@ namespace AsyncAwaitTask
     {
         static void Main(string[] args)
         {
-            var s = await GenTekst();
-           Console.WriteLine(s);
+            string s = "SDADSAD";
+            Console.WriteLine(s);
+            Console.WriteLine(s);
+                Console.WriteLine(s);
+            Console.WriteLine(s);
+            Console.WriteLine(s);
+            Console.WriteLine(s);
+            Console.WriteLine(s);
+            Console.WriteLine(s);
+            Console.WriteLine(s);
+            Console.WriteLine(s);
+            Console.WriteLine(s);
+
+            Console.WriteLine(s);
+            Console.WriteLine(s);
+            Console.WriteLine(s);
+            Console.WriteLine(s);
+            Console.WriteLine(s);
+            Console.WriteLine(s);
+            Console.WriteLine(s);
         }
 
-        public static async Task<string> GenTekst()
+        public void GenTekst()
         {
             for (int i = 0; i < 10; i++)
             {
