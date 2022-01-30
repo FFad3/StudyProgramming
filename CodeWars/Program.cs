@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace CodeWars
 {
@@ -7,33 +9,36 @@ namespace CodeWars
     {
         static void Main(string[] args)
         {
-            try
-            {
-                Console.WriteLine("A");
-                 ValidateSolution(0);
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("B");
-            }
-            finally
-            {
-                Console.WriteLine("C");
-            }
-            Console.WriteLine("E");
-            Console.WriteLine();
+            int[] example = { 1, 8, 7, 9, 5, 6, 7 };
+            Allsets(example);
+            Console.ReadKey();
+
         }
-        public static void ValidateSolution(int a)
+        public static void Allsets(int[] array)
         {
-            try
+            int maxSum=0;
+            for (int i = array.Length-1; i >=0; i--)
             {
-                Console.WriteLine("F");
+                int res = LongestSusequence(array, i);
+                if (maxSum < res) maxSum = res;
+                Console.WriteLine("\n");
             }
-            finally
+        }
+        public static int LongestSusequence(int[] array,int currentposition)
+        {
+            int sum = 0;
+
+            Console.Write(array[currentposition]);
+            for (int i=currentposition-1; i>=0; i--)
             {
-                Console.WriteLine("D");
+                if(array[i]<array[currentposition])
+                {
+                    sum+=(LongestSusequence(array, i));
+                    return 1;
+                }
             }
-            Console.WriteLine("E");
+            return 0;
         }
     }
+
 }
