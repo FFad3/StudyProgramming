@@ -3,7 +3,7 @@ using System.Threading;
 
 namespace Delegate1
 {
-    public class VideoEventArgs:EventArgs
+    public class VideoEventArgs : EventArgs
     {
         public Video Video { get; set; }
     }
@@ -13,14 +13,14 @@ namespace Delegate1
         // 3- Raise the event
 
         // 1- Defined delegate
-            //public delegate void VideoEncodedEventHandler(object source, VideoEventArgs args);
+        //public delegate void VideoEncodedEventHandler(object source, VideoEventArgs args);
 
         //shorter options for delegates
         // EventHandler
         // EventHandler<TEventArgs>
 
         // 2- Define an event based on that delegate
-            //public event VideoEncodedEventHandler VideoEncoded;
+        //public event VideoEncodedEventHandler VideoEncoded;
         public event EventHandler<VideoEventArgs> VideoEncoded;
 
 
@@ -34,7 +34,7 @@ namespace Delegate1
         protected virtual void OnVideoEncoded(Video video)
         {
             if (VideoEncoded != null)
-                VideoEncoded(this, new VideoEventArgs() { Video=video});
+                VideoEncoded(this, new VideoEventArgs() { Video = video });
         }
     }
 }

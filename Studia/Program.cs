@@ -37,7 +37,7 @@ namespace Studia
         public static void ProcessPeople()
         {
             var people = GetPeaople(1_000_000);
-            Console.WriteLine(people.GetEnumerator());       
+            Console.WriteLine(people.GetEnumerator());
             foreach (var person in people)
             {
                 if (person.Id < 1000)
@@ -52,7 +52,7 @@ namespace Studia
             List<Person> people = new();
             for (int i = 0; i < count; i++)
             {
-               yield return new Person() { Id = i, Name = $"Name {i}" };
+                yield return new Person() { Id = i, Name = $"Name {i}" };
             }
             /* lazy iteration allows to get one object at a time and remember the state of the loop 
              * usefull in huge amount of data less memory allocated

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Delegate
 {
@@ -19,7 +15,7 @@ namespace Delegate
             //Do work here and notify consumer that work has been performed
             for (int i = 0; i < hours; i++)
             {
-                OnWorkPereformed(i+1, workType);
+                OnWorkPereformed(i + 1, workType);
             }
             OnWorkCompleted();
         }
@@ -34,7 +30,7 @@ namespace Delegate
             var del = WorkPereformed as WorkPereformedHandler; //cast event as delegate
             if (del != null)
             {
-                del(hours,workType); //raise event
+                del(hours, workType); //raise event
             }
         }
         protected virtual void OnWorkCompleted()

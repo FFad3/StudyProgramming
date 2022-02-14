@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BinaryTree
+﻿namespace BinaryTree
 {
     public class Tree
     {
@@ -27,18 +21,18 @@ namespace BinaryTree
                 InsertNode(_root, newNode);
             }
         }
-        private void InsertNode(Node root,Node newNode)
+        private void InsertNode(Node root, Node newNode)
         {
             if (root == null)
                 root = newNode; //if passed node has no root setup gives newnode as root
 
-            if (root.Data>newNode.Data)
+            if (root.Data > newNode.Data)
             {
-                if (newNode.Data<root.Data)
+                if (newNode.Data < root.Data)
                     if (root.Left == null)
                         root.Left = newNode;
                     else
-                        InsertNode(root.Left, newNode);             
+                        InsertNode(root.Left, newNode);
             }
             else
             {

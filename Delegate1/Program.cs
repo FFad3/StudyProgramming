@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Delegate1
+﻿namespace Delegate1
 {
     public class Program
     {

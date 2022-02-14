@@ -25,7 +25,7 @@ namespace ExtensionMethods
         public static int WordCount(this string str)
         {
             var signs = new char[] { ' ', '.', '?' };
-            return str.Split(signs,StringSplitOptions.RemoveEmptyEntries).Length;
+            return str.Split(signs, StringSplitOptions.RemoveEmptyEntries).Length;
         }
 
         public static int WierdCalc(this int value)
